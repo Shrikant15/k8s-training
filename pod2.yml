@@ -4,9 +4,9 @@ metadata:
   name: pod2
 spec:
   containers:
-  - name: nginx-sshriv2
+  - name: webserver
     image: nginx
     ports:
     - containerPort: 8080
-  - name: watcher-sshriv2
+  - name: webwatcher
     image: afakharany/watcher
