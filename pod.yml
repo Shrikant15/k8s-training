@@ -1,7 +1,7 @@
 apiVersion: v1
 kind: Pod
 metadata:
-  name: pod_training
+  name: podtraining
 spec:
   containers:
   - name: nginx-sshriv2
